@@ -1,0 +1,28 @@
+<!-- <div class="row">
+  <div class="col-md-4">
+    <div class="card" style="width: 18rem; margin: 10px" *ngFor="let singlepkmn of pokemons">
+      <img class="card-img-top" src="{{singlepkmn.sprites.front_default}}" alt="img pkmn">
+      <div class="card-body">
+        <h5 class="card-title">{{singlepkmn.id}}. {{singlepkmn.name}}</h5>
+        <h6 class="pkmn types"> pkmn types</h6>
+        <p class="card-text">Some quick example of a pokémon description</p>
+        <a href="#" class="btn btn-primary">More details</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="card" style="width: 15rem; margin: 5px" *ngFor="let singlepkmn of pokemons">
+          <img class="card-img-top" src="{{singlepkmn.sprites.front_default}}" alt="img pkmn">
+          <div class="card-body">
+            <h5 class="card-title">{{singlepkmn.id}}. {{singlepkmn.name}}</h5>
+            <h6 class="pkmn types"> pkmn types</h6>
+            <p class="card-text">Some quick example of a pokémon description</p>
+            <a href="#" class="btn btn-primary">More details</a>
+          </div>
+        </div>
+    </div>
+  </div>
